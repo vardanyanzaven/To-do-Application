@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <title>To-do Application</title>
+</head>
+<body>
+    <header class="app-name-section">
+        <h1 class="app-heading">To-do Application</h1>
+        <h3 class="app-slogan">Everything to-do</span>, in one place.</h3>
+    </header>
+    <hr style="background-color: black; border-color: black; height: 2px; margin: 0">
+    <div class="page-content">
+        <aside class="categories-tab">
+            <div class="category-options">
+                <button class="tab-category active-tab-category">All Tasks</button>
+            </div>
+        </aside>
+        <div class="app-manage-bar">
+            <div class="manage-functions-bar">
+                <input name="add-todo-text" type="text" class="add-todo-field" placeholder="Add something to-do...">
+                <input type="submit" name="add-todo-btn" class="add-todo-btn" value="Add">
+            </div>
+            <div class="todos-list">
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d4d7da1ed6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
